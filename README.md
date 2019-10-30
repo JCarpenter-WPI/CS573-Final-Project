@@ -18,9 +18,13 @@ This map shows the location of the institutions where NACRO members are located 
 
 This map shows the level of corporate engagement of NACRO members' institutions.  The interest in developing this map was to explore whether there were obvious patterns of engagement by geography.  For example, we might expect high levels of corporate engagement in areas with concentrations of IT of biomedical industry.  However, it is difficult to discern any pattern, perhaps because of the limited number of institutions in the dataset.
 
+[![image](https://user-images.githubusercontent.com/54547762/67874210-fe86c280-fb0a-11e9-9fda-b29c530481d2.png)](https://beta.vizhub.com/JCarpenter-WPI/74a1369f50654ecca306a82d266a540d)
+
 ### NACRO Membership by Office Type
 
 This bar chart shows the breakdown of NACRO membership by office type where the individual member works within their institution.  In addition, users may explore how this changes for different levels of enrollment, which could be interesting to compare the organizational structure for different sizes of institutions.
+
+
 
 ### Corporate Engagement with Pricing and Outcomes
 
