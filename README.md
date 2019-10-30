@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I used to visualize for my project is from three sources:  National Association of Corporate Relations Officers [NACRO](https://nacrocon.org/) membership data;  NACRO member survey data;  [College Scorecard](https://collegescorecard.ed.gov/data/) data.  
+The data I used for my project comes from three sources:  National Association of Corporate Relations Officers [NACRO](https://nacrocon.org/) membership data;  NACRO member survey data;  [College Scorecard](https://collegescorecard.ed.gov/data/) data.  
 
 ## Visualizations
 
@@ -14,75 +14,27 @@ This map shows the location of the institutions where NACRO members are located 
 
 [![image](https://user-images.githubusercontent.com/54547762/67868095-caf36a80-fb01-11e9-8b07-d0c3e811eea1.png)](https://beta.vizhub.com/JCarpenter-WPI/2766fc02e0c64090a49dfaba9069d36d)
 
-I’ve created two proof of concept visualizations of this data. 
+### Corporate Engagement Map
 
-The first one is a map that shows the location of institutions that NACRO members are affiliated with and the number of members at each institution.  
+This map shows the level of corporate engagement of NACRO members' institutions.  The interest in developing this map was to explore whether there were obvious patterns of engagement by geography.  For example, we might expect high levels of corporate engagement in areas with concentrations of IT of biomedical industry.  However, it is difficult to discern any pattern, perhaps because of the limited number of institutions in the dataset.
 
-[![image](https://user-images.githubusercontent.com/54547762/66050217-c6d02f00-e4fa-11e9-801d-dd29323218d3.png)](https://beta.vizhub.com/JCarpenter-WPI/2766fc02e0c64090a49dfaba9069d36d)
+### NACRO Membership by Office Type
 
-The second one is a bar chart showing the diversity of corporate relations office types by number of NACRO members.
+This bar chart shows the breakdown of NACRO membership by office type where the individual member works within their institution.  In addition, users may explore how this changes for different levels of enrollment, which could be interesting to compare the organizational structure for different sizes of institutions.
 
-[![image](https://user-images.githubusercontent.com/54547762/66050276-eb2c0b80-e4fa-11e9-9468-8b53ac9199ec.png)](https://beta.vizhub.com/JCarpenter-WPI/972b7672955b4792b0e115b459068c85)
+### Corporate Engagement with Pricing and Outcomes
 
-## Questions & Tasks
+This scatterplot shows the relationship between the level of corporate engagement of NACRO members' institutions and institutional pricing and outcomes.  The interest in exploring this relationship is based on the hypothesis that pricing would be lower and outcomes would be better for those institutions with higher levels of corporate engagement.  In addition, by putting these two plots side by side, users can explore where specific institutions lie in both plots.  For example, it may be interesting to see where a high priced instutition lies on the outcomes plot and vice versa.
 
-The following questions will drive the visualization and interaction decisions for this project:
+## Future Work
 
- * Who are the members at institutions near me?
- * Who are the members at institutions similar to mine in terms of size, public/private, and Carnegie Classification?
- * Who are the members in my region?
- * How do price and outcomes relate to the level of corporate engagement?
- * What is the diversity of corporate relations office types represented by NACRO members?
- * Are there geographic patterns to the level of corporate engagement?
- 
- These questions translate into the following tasks and sub-tasks:
- 
- 1.  Update map of membership by institution
- 
- * create tooltip showing list of members and contact info by institution
- * create menus for for organizational characteristics such as size, public/private and Carnegie Classification
- * color code regions
- * create functionality to display list of members when users click on region
- * create zoom functionality to more clearly see instititutions that are close to each other (e.g. Boston area)
- 
- 2.  Create price and outcomes chart
- 
- * create side by side scatterplots of price and outcomes by level of corporate engagement
- * create tooltip to show name of institution when hovering over a point on the scatterplots
- * create functionality to select a point on one plot and highlight the same institution on the other plot
- * create menu to select (or ideally search) the name of institution and highlight the corresponding points for that institution on plots
- 
- 3.  Update chart of diversity of office types
- 
- * add menus for orgnizational characteristics such as size, public/private and Carnegie Classification
- 
- 4.  Create map of level of corporate engagement
- 
- * create map with marks indicating (either by size or color) the level of corporate engagement
- 
- 5.  Wish list:  Create fancy plots of corporate engagement
- 
- * explore possibility of creating box plots or violin plots
- 
+Additional work is needed on the Membership Map to make it fully functional.  The Membership Map is the part of the project that could really add value for NACRO, whose members have expressed a high level of interest in networking.  NACRO leadership is interested in this mapping tool.  Also, the NACRO Membership by Office Type chart could be extended.  Specifically, the envisioned future work involves the following:
 
-## Sketches
+Membership Map:
+1.  Incorporate funcationality to link to member contact info by clicking on the institutions on the map.
+2.  Filters could be added for enrollment, Carnegie classification and/or type of institution (public/private).
+3.  Regions could be color coded, with functionality to click on the region and link to list of members in that region.
+4.  Zooming functionality would allow better viewing in more "crowded" geographies.
 
-The sketch below shows the relationship between the number of companies present on campus (a measure of corporate engagement) and price and outcomes.  Putting these two visualizations next to each other allows a user to select an interesting point on one of the charts and  see where that same institution is located on the other chart.
-
-![image](https://user-images.githubusercontent.com/54547762/66050336-09920700-e4fb-11e9-9d38-dd456d65827b.png)
-
-## Open Questions
-
-Besides the big question of whether I am biting off more than I can chew here, to make the membership by institution map operational for NACRO, they will need to update the data regularly, which seems cumbersome to have to go into gisthub each time to copy and paste an updated dataset.  It seems like there should be a way to be able to automate those updates, by perhaps connecting directly to the Excel file where the data are stored (similar to how Tableau can update)?  
-
-But back to biting off more than I can chew, I think the functionality that I have listed in my task list above that is most questionable is displaying a list of members by region when a user clicks on a region on the membership by institution map.  The second most questionable is making the side by side scatterplots, I may have to make these separate, though it would be pretty cool to put those together.  I also don't want to commit to task 5.  I trust you when you say that it may be challenging!
-
-## Schedule of Deliverables
-
-10/2 Task 3
-10/9 Task 4
-10/16 Task 1
-10/23 Task 2
-10/30 Task 5 (if possible) and put everything together
-
-
+NACRO Membership by Office Type:
+1.  Additional dropdown menus could be added for Carnegie classification and type of institution (public/private).
