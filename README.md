@@ -12,7 +12,7 @@ The project is composed of four visualizations:  a NACRO membership map, a map o
 
 This map shows the location of the institutions where NACRO members are located and the number of members at those institutions.  This is a first step towards the development of an online tool that could be incorporated into the NACRO website for members to use for networking purposes.  Further work to realize this tool is described in more detail in the "Future Work" section below.
 
-[![image](https://github.com/JCarpenter-WPI/CS573-Final-Project/issues/1#issue-514727491)](https://beta.vizhub.com/JCarpenter-WPI/2766fc02e0c64090a49dfaba9069d36d)
+[![image](https://user-images.githubusercontent.com/54547762/67868095-caf36a80-fb01-11e9-8b07-d0c3e811eea1.png)](https://beta.vizhub.com/JCarpenter-WPI/2766fc02e0c64090a49dfaba9069d36d)
 
 I’ve created two proof of concept visualizations of this data. 
 
