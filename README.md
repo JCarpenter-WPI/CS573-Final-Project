@@ -44,3 +44,5 @@ Membership Map:
 
 NACRO Membership by Office Type:
 1.  Additional dropdown menus could be added for Carnegie classification and type of institution (public/private).
+
+The Membership Map will have to be re-created using React/D3 instead of Vega-Lite in order to fully implement the envisioned funcationalities.  And the code for any of the visualizations that will be incorporated into the NACRO website will need to be exported from VizHub.
