@@ -24,7 +24,7 @@ This map shows the level of corporate engagement of NACRO members' institutions.
 
 This bar chart shows the breakdown of NACRO membership by office type where the individual member works within their institution.  In addition, users may explore how this changes for different levels of enrollment, which could be interesting to compare the organizational structure for different sizes of institutions.
 
-
+[![image](https://user-images.githubusercontent.com/54547762/67874369-35f56f00-fb0b-11e9-8b4e-5d38ff8b6d32.png)](https://beta.vizhub.com/JCarpenter-WPI/32dec5bfda7d47b480703d12847ca2f7)
 
 ### Corporate Engagement with Pricing and Outcomes
 
