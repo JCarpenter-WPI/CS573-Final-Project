@@ -30,6 +30,8 @@ This bar chart shows the breakdown of NACRO membership by office type where the 
 
 This scatterplot shows the relationship between the level of corporate engagement of NACRO members' institutions and institutional pricing and outcomes.  The interest in exploring this relationship is based on the hypothesis that pricing would be lower and outcomes would be better for those institutions with higher levels of corporate engagement.  In addition, by putting these two plots side by side, users can explore where specific institutions lie in both plots.  For example, it may be interesting to see where a high priced instutition lies on the outcomes plot and vice versa.
 
+[![image](https://user-images.githubusercontent.com/54547762/67874759-c633b400-fb0b-11e9-80a2-a4dd85d24edc.png)](https://beta.vizhub.com/JCarpenter-WPI/8bc36653a35e4d02859b00ea5859864f)
+
 ## Future Work
 
 Additional work is needed on the Membership Map to make it fully functional.  The Membership Map is the part of the project that could really add value for NACRO, whose members have expressed a high level of interest in networking.  NACRO leadership is interested in this mapping tool.  Also, the NACRO Membership by Office Type chart could be extended.  Specifically, the envisioned future work involves the following:
